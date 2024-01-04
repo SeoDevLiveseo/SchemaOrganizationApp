@@ -19,7 +19,9 @@
     "@vtex/tsconfig": "^0.4.4",
     "apollo-cache-inmemory": "^1.6.5",
     "graphql": "^14.6.0",
-    "typescript": "3.9.7"
+    "liveseopartnerbr.schema-organization": "https://appschema--liveseopartnerbr.myvtex.com/_v/private/typings/linked/v1/liveseopartnerbr.schema-organization@0.0.0+build1704368477/public/@types/liveseopartnerbr.schema-organization",
+    "typescript": "3.9.7",
+    "vtex.render-runtime": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.render-runtime@8.134.2/public/@types/vtex.render-runtime"
   },
   "resolutions": {
     "@types/jest": "26.0.15"
