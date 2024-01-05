@@ -52,7 +52,6 @@ function SchemaOrganization({
   const SchemaOrganizationTest = () => (
     <script
       type="application/ld+json"
-      id="my-script"
       dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
     />
   );
