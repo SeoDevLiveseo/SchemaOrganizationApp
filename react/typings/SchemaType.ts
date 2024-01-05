@@ -30,12 +30,12 @@ type PropsSchema = {
     alternateName: string;
     url: string;
     logo: string;
-    redeSocial1: string;
-    redeSocial2: string;
-    redeSocial3: string;
-    redeSocial4: string;
-    redeSocial5: string;
-    redeSocial6: string;
+    sameAs1: string;
+    sameAs2: string;
+    sameAs3: string;
+    sameAs4: string;
+    sameAs5: string;
+    sameAs6: string;
     streetAddress: string;
     addressLocality: string;
     addressRegion: string;

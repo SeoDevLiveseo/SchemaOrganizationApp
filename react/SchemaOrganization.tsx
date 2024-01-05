@@ -6,12 +6,12 @@ function SchemaOrganization({
   alternateName,
   url,
   logo,
-  redeSocial1,
-  redeSocial2,
-  redeSocial3,
-  redeSocial4,
-  redeSocial5,
-  redeSocial6,
+  sameAs1,
+  sameAs2,
+  sameAs3,
+  sameAs4,
+  sameAs5,
+  sameAs6,
   streetAddress,
   addressLocality,
   addressRegion,
@@ -24,7 +24,7 @@ function SchemaOrganization({
     '@context': 'https://schema.org',
     '@type': 'Organization',
     url,
-    sameAs: [redeSocial1, redeSocial2, redeSocial3, redeSocial4, redeSocial5, redeSocial6].filter(Boolean),
+    sameAs: [sameAs1, sameAs2, sameAs3, sameAs4, sameAs5, sameAs6].filter(Boolean),
     logo,
     name,
     alternateName,
@@ -62,21 +62,21 @@ function SchemaOrganization({
 
 SchemaOrganization.schema = {
   title: "Schema Organization",
-  description: "Descrição",
+  description: "Inserção de dados para Rich Snippet de Organization",
   type: "object",
   properties: {
     name: {
-      title: "Name",
+      title: "name",
       description: "",
       type: "string"
     },
     alternateName: {
-      title: "Alternate Name",
+      title: "alternateName",
       description: "",
       type: "string"
     },
     url: {
-      title: "URL",
+      title: "url",
       description: "",
       type: "string"
     },
@@ -85,33 +85,33 @@ SchemaOrganization.schema = {
       description: "",
       type: "string"
     },
-    redeSocial1: {
-      title: "Rede Social 1",
+    sameAs1: {
+      title: "sameAs1",
       description: "",
       type: "string"
     },
-    redeSocial2: {
-      title: "Rede Social 2",
+    sameAs2: {
+      title: "sameAs2",
       description: "",
       type: "string"
     },
-    redeSocial3: {
-      title: "Rede Social 3",
+    sameAs3: {
+      title: "sameAs3",
       description: "",
       type: "string"
     },
-    redeSocial4: {
-      title: "Rede Social 4",
+    sameAs4: {
+      title: "sameAs4",
       description: "",
       type: "string"
     },
-    redeSocial5: {
-      title: "Rede Social 5",
+    sameAs5: {
+      title: "sameAs5",
       description: "",
       type: "string"
     },
-    redeSocial6: {
-      title: "Rede Social 6",
+    sameAs6: {
+      title: "sameAs6",
       description: "",
       type: "string"
     },
